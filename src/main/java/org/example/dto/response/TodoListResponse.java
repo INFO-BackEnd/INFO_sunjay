@@ -1,4 +1,4 @@
-package org.example.controller.dto.response;
+package org.example.dto.response;
 
 import lombok.*;
 
@@ -8,7 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 
 public class TodoListResponse {
-    private int id;
+    private Long id;
     private String content;
     private boolean completed;
 }
